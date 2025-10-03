@@ -1,0 +1,131 @@
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f6f9;
+  color: #333;
+  display: flex;
+}
+
+
+.menu {
+  width: 220px;
+  background: #2c3e50;
+  color: white;
+  height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.menu h2 {
+  margin-bottom: 20px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.menu a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 5px;
+}
+
+.menu a:hover {
+  background: #34495e;
+}
+
+
+.lista {
+  margin-left: 240px;   /* dá espaço pro menu lateral */
+  padding: 30px;
+  flex: 1;
+  background: #f4f6f9;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.lista h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #2c3e50;
+}
+
+
+form {
+  display: flex;
+  align-items: flex-end; 
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+form label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  display: block;
+  color: #2c3e50;
+}
+
+form .campo {
+  display: flex;
+  flex-direction: column;
+}
+
+input, select, button {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+
+input, select {
+  min-width: 200px;
+}
+
+
+button {
+  background: #2c3e50;
+  color: white;
+  border: none;
+  cursor: pointer;
+
+}
+
+button:hover {
+  background: #34495e;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+thead {
+  background: #2c3e50;
+  color: white;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+  background: #f1f1f1;
+}
